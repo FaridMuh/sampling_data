@@ -12,3 +12,6 @@ csvstack weather_2015.csv weather_2014.csv > weather.csv
 
 #hapus file weather_data.xlsx
 rm weather_data.xlsx
+
+#sampling pada file weather.csv dengan rate 0.3
+weather.csv | sample -r 0.3 > sample_weather.csv
