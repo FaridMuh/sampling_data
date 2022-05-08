@@ -1,6 +1,6 @@
 # sampling_data
 
-# Mendownload sebuah file excel
+#Mendownload sebuah file excel
 wget https://github.com/labusiam/dataset/raw/main/weather_data.xlsx
 
 #konvert setiap sheet pada file weather_data.xlsx
